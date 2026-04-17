@@ -134,6 +134,9 @@ The division of the layers into tiles uses a set of predefined polygons, stored 
 
 The original files in the stack are maintained for illustration and documentation, and the output tiles are stored in another folder to avoid confusion.
 
+* Added by Collin van Rooij 13-04-2026 *
+When using the tiles to tile new layers, the tiles should be appended on all sides by 16 pixels (so 160 meters) before being used to clip the new data to. This ensure overlap in training and prediction so to not get arbitrary boundaries during training. 
+
 # References
 
 McBratney, A.B., Mendonça Santos, M.L., Minasny, B., 2003. On digital soil mapping. Geoderma 117(1-2), 3-52. [https://dx.doi.org/10.1016/s0016-7061(03)00223-4](https://dx.doi.org/10.1016/s0016-7061\(03\)00223-4)

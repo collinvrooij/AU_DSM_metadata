@@ -1,0 +1,80 @@
+### Bibliography of references used in DSM stack
+Every reference should be included as a bibtex
+
+GBIF_combi:
+@misc{https://doi.org/10.15468/dl.4gqy5k,
+  doi = {10.15468/DL.4GQY5K},
+  url = {https://www.gbif.org/occurrence/download/0043592-260226173443078},
+  author = {{GBIF.org User}},
+  keywords = {GBIF, biodiversity, species occurrences},
+  title = {Occurrence Download},
+  publisher = {The Global Biodiversity Information Facility},
+  year = {2026},
+  copyright = {Creative Commons Attribution Non Commercial 4.0 International}
+}
+
+GBIF_Danske:
+@misc{https://doi.org/10.15468/dl.uhfymg,
+  doi = {10.15468/DL.UHFYMG},
+  url = {https://www.gbif.org/occurrence/download/0043576-260226173443078},
+  author = {{GBIF.org User}},
+  keywords = {GBIF, biodiversity, species occurrences},
+  title = {Occurrence Download},
+  publisher = {The Global Biodiversity Information Facility},
+  year = {2026},
+  copyright = {Creative Commons Attribution Non Commercial 4.0 International}
+}
+
+GBIF_Habi:
+@misc{https://doi.org/10.15468/dl.mq9qyw,
+  doi = {10.15468/DL.MQ9QYW},
+  url = {https://www.gbif.org/occurrence/download/0043562-260226173443078},
+  author = {{GBIF.org User}},
+  keywords = {GBIF, biodiversity, species occurrences},
+  title = {Occurrence Download},
+  publisher = {The Global Biodiversity Information Facility},
+  year = {2026},
+  copyright = {Creative Commons Attribution Non Commercial 4.0 International}
+}
+
+GBIF_Joosten:
+@misc{https://doi.org/10.15468/dl.yxj24g,
+  doi = {10.15468/DL.YXJ24G},
+  url = {https://www.gbif.org/occurrence/download/0043486-260226173443078},
+  author = {{GBIF.org User}},
+  keywords = {GBIF, biodiversity, species occurrences},
+  title = {Occurrence Download},
+  publisher = {The Global Biodiversity Information Facility},
+  year = {2026},
+  copyright = {Creative Commons Attribution Non Commercial 4.0 International}
+}
+
+Joosten_2017:
+@article{joosten2017mires,
+  title={Mires and peatlands of Europe},
+  author={Joosten, Hans and Tanneberger, Franziska and Moen, Asbjorn},
+  year={2017},
+  publisher={Schweizerbart'sche Verlagsbuchhandlung}
+}
+
+Nygaard_2009:
+@report{Nygaard2009,
+  author = {Nygaard, B. and Ejrnæs, R. and Baattrup-Pedersen, A. and Fredshavn, J.R.},
+  title = {Danske plantesamfund i moser og enge – vegetation, økologi, sårbarhed og beskyttelse},
+  year = {2009},
+  institution = {Danmarks Miljøundersøgelser, Aarhus Universitet},
+  type = {Faglig rapport fra DMU},
+  number = {728},
+  url = {http://www.dmu.dk/Pub/FR728.pdf},
+  isbn = {978-87-7073-111-9}
+}
+
+EU_habitats_2013:
+@misc{EUHabitatsManual2013,
+  author = {{European Commission}},
+  title = {Interpretation Manual of European Union Habitats - EUR28},
+  year = {2013},
+  month = {April},
+  howpublished = {Habitats Committee},
+ }
+

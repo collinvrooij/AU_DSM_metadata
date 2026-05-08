@@ -78,3 +78,141 @@ EU_habitats_2013:
   howpublished = {Habitats Committee},
  }
 
+dhm2015_terraen_10m:
+@dataset{dhm2015_terraen_10m,
+  author = {{Mette Balslev Greve}},
+  title = {DHM2015 Terrain Model 10m},
+  year = {2016},
+  note = {Composite DEM comprised of Danish national elevation models from laser scans collected 2011--2015},
+}
+
+Koethe_1996:
+@manual{Koethe_1996,
+  author = {Koethe, R. and Lehmeier, F.},
+  title = {SARA -- System zur Automatischen Relief-Analyse},
+  edition = {2},
+  year = {1996},
+  organization = {Department of Geography, University of Goettingen},
+  note = {User Manual, unpublished}
+}
+
+Travis_1975:
+@article{Travis_1975,
+  author = {Travis, M. R. and Elsner, G. H. and Iverson, W. D. and Johnson, C. G.},
+  title = {VIEWIT: Computation of Seen Areas, Slope, Aspect, and Line-of-Sight Components},
+  journal = {USDA Forest Service General Technical Report},
+  year = {1975}
+}
+
+Planchon_2001:
+@article{Planchon_2001,
+  author = {Planchon, O. and Darboux, F.},
+  title = {A fast, simple and versatile algorithm to fill the depressions of digital elevation models},
+  journal = {Catena},
+  volume = {46},
+  number = {2--3},
+  pages = {159--176},
+  year = {2001},
+  doi = {10.1016/S0341-8162(01)00164-3}
+}
+
+Jenson_1988:
+@article{Jenson_1988,
+  author = {Jenson, S. K. and Domingue, J. O.},
+  title = {Extracting Topographic Structure from Digital Elevation Data for Geographic Information System Analysis},
+  journal = {Photogrammetric Engineering and Remote Sensing},
+  volume = {54},
+  number = {11},
+  pages = {1593--1600},
+  year = {1988}
+}
+
+Tarboton_1991:
+@article{Tarboton_1991,
+  author = {Tarboton, D. G. and Bras, R. L. and Rodriguez-Iturbe, I.},
+  title = {On the Extraction of Channel Networks from Digital Elevation Data},
+  journal = {Hydrological Processes},
+  volume = {5},
+  number = {1},
+  pages = {81--100},
+  year = {1991},
+  doi = {10.1002/hyp.3360050107}
+}
+
+Boehner_2002:
+@incollection{Boehner_2002,
+  author = {Böhner, J. and Selige, T.},
+  title = {Spatial Prediction of Soil Attributes Using Terrain Analysis and Climate Regionalisation},
+  booktitle = {SAGA -- Analysis and Modelling Applications},
+  year = {2002}
+}
+
+Boehner_2006:
+@incollection{Boehner_2006,
+  author = {Böhner, J. and Selige, T.},
+  title = {Spatial Prediction of Soil Attributes Using Terrain Analysis and Climate Regionalisation},
+  booktitle = {SAGA -- Analysis and Modelling Applications},
+  editor = {Böhner, J. and McCloy, K. R. and Strobl, J.},
+  publisher = {Göttinger Geographische Abhandlungen},
+  year = {2006},
+  pages = {13--28}
+}
+
+Anders_2009:
+@article{Anders_2009,
+  author = {Anders, N. S. and Seijmonsbergen, A. C. and Bouten, W.},
+  title = {Multi-scale and object-oriented image analysis of high-res LiDAR data for geomorphological mapping in Alpine mountains},
+  journal = {Geomorphology},
+  volume = {100},
+  number = {1--2},
+  pages = {114--131},
+  year = {2009},
+  doi = {10.1016/j.geomorph.2008.03.008}
+}
+
+Prima_2006:
+@article{Prima_2006,
+  author = {Prima, O. D. A. and Echigo, A. and Yokoyama, R. and Yoshida, T.},
+  title = {Supervised Landform Classification of Northeast Honshu from DEM-derived Thematic Maps},
+  journal = {Geomorphology},
+  volume = {78},
+  number = {3--4},
+  pages = {373--386},
+  year = {2006},
+  doi = {10.1016/j.geomorph.2006.01.005}
+}
+
+Yokoyama_2002:
+@article{Yokoyama_2002,
+  author = {Yokoyama, R. and Shirasawa, M. and Pike, R. J.},
+  title = {Visualizing Topography by Openness: A New Application of Image Processing to Digital Elevation Models},
+  journal = {Photogrammetric Engineering and Remote Sensing},
+  volume = {68},
+  number = {3},
+  pages = {257--265},
+  year = {2002}
+}
+
+Beven_1979:
+@article{Beven_1979,
+  author = {Beven, K. J. and Kirkby, M. J.},
+  title = {A Physically Based, Variable Contributing Area Model of Basin Hydrology},
+  journal = {Hydrological Sciences Bulletin},
+  volume = {24},
+  number = {1},
+  pages = {43--69},
+  year = {1979},
+  doi = {10.1080/02626667909491834}
+}
+
+Montgomery_1994:
+@article{Montgomery_1994,
+  author = {Montgomery, D. R. and Dietrich, W. E.},
+  title = {A Physically Based Model for the Topographic Control on Shallow Landsliding},
+  journal = {Water Resources Research},
+  volume = {30},
+  number = {4},
+  pages = {1153--1171},
+  year = {1994},
+  doi = {10.1029/93WR02979}
+}

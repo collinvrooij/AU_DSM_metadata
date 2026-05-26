@@ -216,3 +216,23 @@ Montgomery_1994:
   year = {1994},
   doi = {10.1029/93WR02979}
 }
+
+Brown_2025:
+@article{Brown_2025,
+   author = {Brown, C. and Kazmierski, M. and Pasquarella, V. and Rucklidge, W. and Samsikiva, M. and Zhang, C. and Shelhamer, E. and Lahera, E. and Wiles, O, . and Ilyushchenko, S. and Gorelick, Noel and LZhang, L. and Alj, S. and Schechter, E. and Askat, S. and Guinan, O. and Moore, R. and Boukouvalas, A. and Kohli, P.},
+   title = {AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data},
+   journal = {arXiv:2507.22291v2 },
+   year = {2025},
+   type = {Journal Article}
+}
+
+Gutierrez_2026:
+@article{Gutierrez_2026,
+   author = {Gutierrez, J. S. and Greve, H. M. and Gomes, L. and Møller, A. B. and Danielsen, A-C. and Weber, P. and Pesch, C. and Knadel, M. and Mikstas, D. and Beucher, A. and Zaresournamabad, M. and Moldrup, P. and Robinson D. and de Jonge, L. W. and Norouzi, S.},
+   title = {High-resolution mapping of compressed vis-NIR topsoil spectral data for Denmark},
+   journal = {SSRN},
+   DOI = {http://dx.doi.org/10.2139/ssrn.6437499},
+   year = {2026},
+   type = {Journal Article}
+}
+

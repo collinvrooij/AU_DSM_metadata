@@ -6,6 +6,12 @@ Date:	2026-03-19
 
 
 
+\## Version 20260526 ##
+
+Lucas, Sebastian and Collin:
+
+\-	Changed the covariates file to include Lucas changes
+
 
 
 \## Version 20260318 ##
@@ -52,7 +58,7 @@ Additions:
 
 \-	Peat probability and relative sampling density based on the Ochre and Jupiter
 
-&#x09;databases (The are mainly intended for mapping historic peat, but I have 
+&#x09;databases (The are mainly intended for mapping historic peat, but I have
 
 &#x09;included them to facilitate their implementation.)
 
@@ -108,9 +114,9 @@ Additions:
 
 \-	A new bare soil composite from SoilSuite (20 m resolution), as well as the
 
-&#x09;overall surface reflectance from Sentinel-2. The gaps in the bare soil 
+&#x09;overall surface reflectance from Sentinel-2. The gaps in the bare soil
 
-&#x09;composite have been filled in to avoid artifacts from NAs, but there are also 
+&#x09;composite have been filled in to avoid artifacts from NAs, but there are also
 
 &#x09;layers which explicitly indicate the bare soil extent.
 
@@ -128,7 +134,7 @@ Removals:
 
 \-	Indicator layers with crisp boundaries and crisp layers of cropping history
 
-&#x09;(IMK). The new version only uses fuzzified indicator rasters, as they produce 
+&#x09;(IMK). The new version only uses fuzzified indicator rasters, as they produce
 
 &#x09;a more realistic prediction surface.
 
@@ -174,19 +180,19 @@ Additions:
 
 \-	Fuzzy boundaries for the categorical indicator rasters (“fuzzy\_...”). In many
 
-&#x09;cases these layers can help to create softer, more realistic changes from one 
+&#x09;cases these layers can help to create softer, more realistic changes from one
 
-&#x09;class to another. I have based the width of the fuzzy boundaries on the 
+&#x09;class to another. I have based the width of the fuzzy boundaries on the
 
 &#x09;approximate spatial uncertainty of the original maps. The original layers with
 
 &#x09;crisp boundaries are still in the stack if you prefer those.
 
-\-	Bare soil composite with filled gaps (“filled\_...”). In these layers I have 
+\-	Bare soil composite with filled gaps (“filled\_...”). In these layers I have
 
-&#x09;first removed edge pixels and pixels with less than 10 bare soil images. I 
+&#x09;first removed edge pixels and pixels with less than 10 bare soil images. I
 
-&#x09;have then filled the gaps by interpolation, using an iterative procedure 
+&#x09;have then filled the gaps by interpolation, using an iterative procedure
 
 &#x09;based on aggregation and smoothing. The values in the gaps do not necessarily
 
@@ -196,9 +202,9 @@ Additions:
 
 \-	The layer “s2\_count\_max10.tif”, indicating the number of bare soil images for
 
-&#x09;each pixel, with a maximum value of 10. In some cases, the extent of the bare 
+&#x09;each pixel, with a maximum value of 10. In some cases, the extent of the bare
 
-&#x09;soil area can be a useful covariate in itself. The layer 
+&#x09;soil area can be a useful covariate in itself. The layer
 
 &#x09;“s2\_count\_max10\_fuzzy.tif” is a smoothed version, which I use myself.
 
@@ -232,7 +238,7 @@ Changes:
 
 &#x09;This way, covariates will have the correct names when loaded with terra in R.
 
-\-	Included two columns in the overview table, containing a text description of 
+\-	Included two columns in the overview table, containing a text description of
 
 &#x09;each covariate as well as the units. This work is not complete, but you can
 
@@ -254,7 +260,7 @@ Changes:
 
 \- 	For standardization, all names are now in lowercase only.
 
-\-	Masked all covariates to the coastline of the DEM, so no covariates have 
+\-	Masked all covariates to the coastline of the DEM, so no covariates have
 
 &#x09;values outside of this mask.
 
@@ -291,6 +297,4 @@ Features:
 
 
 \### END OF DOCUMENT ###
-
-
 

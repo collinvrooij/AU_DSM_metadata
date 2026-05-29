@@ -236,3 +236,109 @@ Gutierrez_2026:
    type = {Journal Article}
 }
 
+GEUS_jord2024:
+@article{https://doi.org/10.22008/gpub/34696,
+  doi = {10.22008/GPUB/34696},
+  url = {https://data.geus.dk/gpub-landingpage/?id=34696},
+  author = {Andersen,  Lærke Therese and Anthonsen,  Karen Lyng and Jakobsen,  Peter Roll},
+  title = {Danmarks Digitale Jordartskort 1:25.000. Version 7.0},
+  publisher = {Geological Survey of Denmark and Greenland (GEUS)},
+  year = {2024}
+}
+
+dk_atlas_1992:
+@book{madsen1992danish,
+  author    = {Madsen, Henrik Breuning and N{\o}rr, Axel Henry and Holst, Kristian Aagaard},
+  title     = {The Danish Soil Classification},
+  series    = {Atlas of Denmark, Series I},
+  volume    = {3},
+  publisher = {The Royal Danish Geographical Society},
+  address   = {Copenhagen},
+  year      = {1992},
+  note      = {Published by Rosendahl Press. By Commission: C.A. Reitzel. Supported by The Danish State, The Carlsberg Foundation, and private companies}
+}
+
+levin2022basemap04:
+@techreport{levin2022basemap04,
+  author      = {Levin, G.},
+  title       = {Basemap04. Documentation of the data and method for elaboration of a land use and land cover map for Denmark},
+  institution = {Aarhus University, DCE -- Danish Centre for Environment and Energy},
+  year        = {2022},
+  type        = {Technical Report},
+  number      = {252},
+  pages       = {77},
+  url         = {http://dce2.au.dk/pub/TR252.pdf}
+}
+
+geus_jupiter:
+@misc{geus_jupiter,
+  author       = {{GEUS}},
+  title        = {Jupiter-databasen: National boringsdatabase},
+  organization = {De Nationale Geologiske Unders{\o}gelser for Danmark og Gr{\o}nland (GEUS)},
+  howpublished = {\url{https://data.geus.dk}},
+  note         = {Downloaded from data.geus.dk}
+}
+
+dam2003videnskabernes:
+@article{dam2003videnskabernes,
+  author  = {Dam, Peder},
+  title   = {Videnskabernes Selskabs kort -- en introduktion til s{\aa}vel analog som digital brug},
+  journal = {HisKIS Skrift},
+  year    = {2003},
+  volume  = {2003--2005},
+  pages   = {36--44},
+  editor  = {N{\o}rbach, Lars},
+  note    = {Redaktion: Lars N{\o}rbach, Nordjyllands Historiske Museum. Tilrettel{\ae}ggelse: Jan Slot-Carlsen}
+}
+
+Møller2020:
+@article{Møller2020,
+  title = {Oblique geographic coordinates as covariates for digital soil mapping},
+  volume = {6},
+  ISSN = {2199-398X},
+  url = {http://dx.doi.org/10.5194/soil-6-269-2020},
+  DOI = {10.5194/soil-6-269-2020},
+  number = {2},
+  journal = {SOIL},
+  publisher = {Copernicus GmbH},
+  author = {Møller,  Anders Bjørn and Beucher,  Amélie Marie and Pouladi,  Nastaran and Greve,  Mogens Humlekrog},
+  year = {2020},
+  month = July,
+  pages = {269–289}
+}
+
+Sechu2021:
+@article{Sechu2021,
+  title = {A Stepwise GIS Approach for the Delineation of River Valley Bottom within Drainage Basins Using a Cost Distance Accumulation Analysis},
+  volume = {13},
+  ISSN = {2073-4441},
+  url = {http://dx.doi.org/10.3390/w13060827},
+  DOI = {10.3390/w13060827},
+  number = {6},
+  journal = {Water},
+  publisher = {MDPI AG},
+  author = {Sechu,  Gasper L. and Nilsson,  Bertel and Iversen,  Bo V. and Greve,  Mette B. and Børgesen,  Christen D. and Greve,  Mogens H.},
+  year = {2021},
+  month = Mar,
+  pages = {827}
+}
+
+dhm2023:
+@misc{RN4034,
+   author = {Styrelsen for Dataforsyning og Infrastruktur},
+   title = {Danmarks Højdemodel},
+   volume = {2023},
+   number = {13-02-2023},
+   url = {https://sdfi.dk/data-om-danmark/vores-data/danmarks-hoejdemodel},
+   year = {2023},
+   type = {Web Page}
+}
+
+InternetMarkkort:
+@misc{lbst_landbrugsgis,
+  author       = {{Landbrugsstyrelsen}},
+  title        = {LandbrugsGIS -- Download kortdata},
+  organization = {Landbrugsstyrelsen (Danish Agricultural Agency)},
+  howpublished = {\url{https://landbrugsgeodata.fvm.dk}},
+  note         = {Marker_[year].zip were used}
+}

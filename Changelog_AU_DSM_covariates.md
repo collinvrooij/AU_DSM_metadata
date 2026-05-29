@@ -8,6 +8,11 @@ Date:	2026-03-19
 
 \## Version 20260526 ##
 
+Collin, 29-5-2026:
+-   Included the correct sources for the covariates insterted by Amelie and Anders
+-   Included the NDVI and NDMI covariates in the overview
+-   Included additional sources in the bibliography
+
 Lucas, Sebastian and Collin:
 
 \-	Changed the covariates file to include Lucas changes
